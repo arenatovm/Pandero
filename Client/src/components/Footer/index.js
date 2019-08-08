@@ -1,10 +1,11 @@
 import React from "react";
+import "./index.css";
 
 function Footer() {
     return (
         <footer>
             <nav className="navbar fixed-bottom navbar-light bg-light">
-                <a className="navbar-brand" href="./"><img src="../public/images/Panderos.PNG"  width="60"height="40" alt=""/></a>
+                <a className="navbar-brand" href="./"><img src="../public/images/panderos.PNG"  width="60"height="40" alt=""/></a>
                     <a className="nav-item nav-link botones" href="./WhoAreWe.html">Corporate Information</a>
                     <a className="nav-item nav-link botones" href="./FAQ.html">FAQ</a>
                     <a className="nav-item nav-link botones" href="./Career.html">Career</a>
@@ -27,6 +28,7 @@ function Footer() {
                     </div>
                     
         </nav>
+        
     </footer>
             );
           }
