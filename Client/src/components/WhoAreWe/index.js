@@ -1,8 +1,11 @@
 import React from 'react';
 
 function WhoAreWe() {
+    let mybackimg = '../public/image/panda_1200';
+
     return (
         
+
             <div className="jumbotron" className="image" >
                 <h1 className="display-4">Who are we?</h1>
                 <p className="lead col-8">We are a start up trying to encourage people to save money in a different way and helping each other at the same time. <br/>
