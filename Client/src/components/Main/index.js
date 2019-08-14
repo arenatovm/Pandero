@@ -2,8 +2,10 @@ import React from 'react';
 import "./index.css";
 
 function Main() {
+    const style1 ={width:"!200px", height:"450px"};
+    
     return (
-        <Main>
+        
             <div className="bd-example">
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
@@ -13,15 +15,14 @@ function Main() {
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="../public/images/Person-Money-computer-card.jpg" style="width: 1200" height="450"
-                                className="d-block w-100" alt="..." />
+                            <img src="../images/Person-Money-computer-card.jpg" style={style1}  className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="../public/images/old-lady-money-happy.jpg" style="width: 1200" height="450"
+                            <img src="../images/old-lady-money-happy.jpg" style={style1}
                                 className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
@@ -29,7 +30,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src="../public/images/alot-hands-money.jpg" style="width: 1200" height="450"
+                            <img src="../images/alot-hands-money.jpg" style={style1}
                                 className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
@@ -47,7 +48,7 @@ function Main() {
                     </a>
                 </div>
             </div>
-        </Main>
+        
     )
 };
 

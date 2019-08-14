@@ -1,12 +1,12 @@
 import React from 'react';
 
 function WhoAreWe() {
-    let mybackimg = '../public/image/panda_1200';
+    var divStyle = { backgroundImage: "url('../images/panda_1200.jpg')"};
 
     return (
         
 
-            <div className="jumbotron" className="image" >
+            <div className="jumbotron" className="image" style={divStyle}>
                 <h1 className="display-4">Who are we?</h1>
                 <p className="lead col-8">We are a start up trying to encourage people to save money in a different way and helping each other at the same time. <br/>
                     We are a small group of people that create this platform in order to help people to get together with same financial goals or same desire to help a friend with some cash in a easy and fast way. <br/>

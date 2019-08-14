@@ -1,5 +1,6 @@
 /* === Dependencies === */
 const express = require("express");
+require('dotenv').config();
 const path = require("path");
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
@@ -9,6 +10,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const flash = require('connect-flash');
 const routes = require('./routes/index');
+require('./database');
 /* === Set the PORT to work with deployment environment === */
 const PORT = process.env.PORT || 3001;
 /* === Call Express as app === */
